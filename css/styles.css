@@ -1,0 +1,130 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container{
+  max-width: 1210px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-intro{
+  background-image: url("../img/bgc-fon.svg");
+}
+
+.learn-code{
+  display: flex;
+}
+
+.intro-heading{
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: #FFFFFF;
+  width: 525px;
+  padding-top: 290px;
+}
+
+.intro-text{
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 525px;
+  padding-bottom: 290px;
+  margin-right: 45px;
+}
+
+.intro-text-right{
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.267857px;
+  color: #FFFFFF;
+  padding: 17px 119px;
+  border: 1px solid transparent;
+  background-color: rgba(94, 84, 164, 1);
+  border-radius: 10px;
+  margin-top: 121px;
+  /* margin-right: 45px; */
+}
+
+.form-intro{
+  border: 2px solid transparent;    
+  background-color: rgba(255, 255, 255, 1);
+  width: 540px;
+  border-radius: 5px;
+  /* margin-left: 45px; */
+}
+
+.item-name{
+  padding: 15px 0 15px 32px;
+  margin-bottom: 10px;  
+  border-radius: 10px;
+  margin: 40px 40px 0 40px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  width: 460px;
+}
+
+.right-claim{
+  width: 460px;
+  padding: 15px;
+  background-color: rgba(56, 204, 139, 1);
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px; 
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  margin: 20px 0 8px 40px;
+}
+.claim-link{
+  display: block;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #BAB7D4;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.term-services{
+  color: rgb(209, 55, 55);
+}
