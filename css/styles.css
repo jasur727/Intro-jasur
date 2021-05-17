@@ -99,12 +99,11 @@ img {
   text-align: center;
   letter-spacing: 0.267857px;
   color: #FFFFFF;
-  padding: 17px 119px;
   border: 1px solid transparent;
   background-color: rgba(94, 84, 164, 1);
   border-radius: 10px;
   margin-top: 121px;
-  /* margin-right: 45px; */
+  padding: 17px 0;
 }
 
 .form-intro{
